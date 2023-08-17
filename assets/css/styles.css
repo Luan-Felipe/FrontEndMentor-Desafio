@@ -53,6 +53,7 @@ body {
 
 .result h3 {
     height: 1.5rem;
+    color: cfc3ff;
 }
 
 .result .classification h2 {
@@ -62,6 +63,7 @@ body {
 .result .classification p {
     font-size: 16px;
     margin: 0;
+    color: #b4b3ff;
 }
 
 .circle {
@@ -142,5 +144,7 @@ body {
     height: 4rem;
     font-size: 1.4rem;
     font-weight: 700;
+    color:  #fff;
+    background-color: hsl(224, 30%, 27%);
 }
 
