@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+  font-weight: 500, 700, 800;
+  font-style: normal;
+}
+
+html {
+  display: flex;
+  min-height: 100%;
+  min-width: 375px;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  font-family: "HankenGrotesk";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.result {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.summary {
+    height: 60vh;
+    margin: 0 2rem;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 0.7rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    height: 3.4rem;
+}
+
+.button {
+    width: 100%;
+    border-radius: 5rem;
+}
+
