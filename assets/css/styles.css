@@ -105,9 +105,20 @@ body {
 }
 
 .stats:nth-child(2) {
-    background-color: hsla(0, 100%, 67%, 10%);
+    background-color: hsla(0, 100%, 67%, 30%);
 }
 
+.stats:nth-child(3) {
+    background-color: hsla(39, 100%, 56%, 30%);
+}
+
+.stats:nth-child(4) {
+    background-color: hsla(166, 100%, 37%, 30%);
+}
+
+.stats:nth-child(5) {
+    background-color: hsla(234, 85%, 45%, 30%);
+}
 .stats:nth-child(2)::before {
     content: '';
     width: 1.5rem;
@@ -118,9 +129,7 @@ body {
     background-image: url('../icons/ray.png');
 }
 
-.stats:nth-child(3) {
-    background-color: hsla(39, 100%, 56%, 10%);
-}
+
 
 .stats:nth-child(3)::before {
     content: '';
@@ -132,9 +141,7 @@ body {
     background-image: url('../icons/cerebro.png');
 }
 
-.stats:nth-child(4) {
-    background-color: hsla(166, 100%, 37%, 10%);
-}
+
 
 .stats:nth-child(4)::before {
     content: '';
@@ -146,9 +153,6 @@ body {
     background-image: url('../icons/dialogo.png');
 }
 
-.stats:nth-child(5) {
-    background-color: hsla(234, 85%, 45%, 10%);
-}
 
 .stats:nth-child(5)::before {
     content: '';
