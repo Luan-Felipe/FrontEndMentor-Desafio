@@ -187,13 +187,70 @@ body {
 .button {
     border: none;
     width: 100%;
-    border-radius: 5rem;
-    
+    border-radius: 5rem;   
     margin-bottom: 0;
     height: 3.8rem;
     font-size: 1.4rem;
     font-weight: 700;
     color:  #fff;
     background-color: hsl(224, 30%, 27%);
+}
+
+@media (min-width: 600px){
+    body {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 1440px;
+    }
+
+    .result {
+        height: 100%;
+        width: 51%;
+        border-radius:2rem;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+
+    .summary {
+        height: 100%;
+        width: 49%;
+    }
+
+    .stats:nth-child(2) .title {
+        position: relative;
+        left: -1rem;
+    }
+
+    .stats:nth-child(3) .title {
+        position: relative;
+        left: -1rem;
+    }
+
+    .stats:nth-child(4) .title {
+        position: relative;
+        left: -1rem;
+    }
+
+    .stats:nth-child(5) .title {
+        position: relative;
+        left: -1rem;
+    }
+
+    .classification p{
+        text-align: center;
+    }
+
+    .button { 
+        height: 3.5rem;
+    }
+
+    input[type="button"].button:hover { 
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
 }
 
